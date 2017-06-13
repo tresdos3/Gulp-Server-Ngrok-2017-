@@ -14,8 +14,8 @@ Welcome follow this steps and you will have your gulp server running in addition
 
 
 Tools needed for this project:
-    Nodejs : 6.0+
-    Gulp": 3.9.1
+    Nodejs : 6.0+  https://nodejs.org/es/
+    Gulp": 3.9.1    npm install -g gulp
     Ngrok": 2.2.9
     Git or CMD console
 
