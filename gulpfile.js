@@ -4,10 +4,10 @@ var gulp = require('gulp'),
 	Nport = 3000; //<== this is a number port
 //task for create server
 gulp.task('server', function() {
-  gulp.src('app')
+  gulp.src('app')//<== you folder name
     .pipe(server({
-      livereload: true,
-      open: true,
+      livereload: true, //livereload its work
+      open: true,//auto open in browser
       port: Nport
     }));
 //  here connect this proyect with ngrok
@@ -15,7 +15,7 @@ gulp.task('server', function() {
     	if (err !== null) {
     		console.log('Error');
     	}
-      console.log('your server is in http://localhost:'+Nport);
-    	console.log('Ngrok URL:  '+ url);
+      console.log('your server is in http://localhost:'+Nport);//message server is running
+      console.log('Ngrok URL:  '+ url);//message ngrok link
     });
 });
